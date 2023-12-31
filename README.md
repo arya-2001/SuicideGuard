@@ -138,4 +138,41 @@ See code implementation in the `algorithm_system_2.py` file.
    - Combine LSTM predictions with sentiment scores.
    - Train SVM classifier on combined features and evaluate accuracy.
 
+     
+### Total Result Table:
+***Table 1: Best Accuracy of selected datasets using ML & DL approach***
+
+![Screenshot 2023-12-31 225716](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/711166d1-bf39-4915-857e-fb8e9c94f6f2)
+
+### Result of Proposed System 2:
+***Table 2: Accuracy of selected datasets using Proposed System 2***
+
+![image](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/453ad83d-b204-4225-b489-23d66bcc2f43)
+
+### Comparison Table:
+***Table 3: Comparison of accuracy between existing research work and proposed work***
+
 ![image](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/dcb3ce24-9e9e-4ad1-b0b2-2156af77eb5c)
+
+## Conclusion
+
+The primary goal of this project is to identify suicidal intent through depression detection in texts using a combination of Machine Learning (ML) and Deep Learning (DL) techniques. The approach involved a thorough analysis of previously conducted research works, identifying gaps, and selecting appropriate features, ML, and DL techniques. Six diverse datasets were collected from these research papers to facilitate experimentation.
+
+### Proposed System 1
+
+A comprehensive workflow was proposed for detecting suicidal intent from textual data using the ML and DL approach in Proposed System 1. The methodology included the design of a system architecture and a flowchart. Four features—BoW (unigram), TF-IDF, BoW (bigram), and TF-IDF (bigram)—were extracted, and individual and combined features were employed as inputs for four ML classifiers (SVM, NB, LR, and RF) and four DL classifiers (LSTM, Bi-LSTM, CNN, and BERT). The model achieved notable accuracy results for different datasets, with scores as follows: Reddit (82%), Life_Corpus (87%), CEASE (77%), SWMH (73%), SDCNL (71%), and SDD (94%).
+
+### Proposed System 2
+
+A separate workflow was proposed for detecting suicidal intent from textual data using a hybrid approach in Proposed System 2. This approach involved the construction of a system architecture and a flowchart. The model integrated LSTM, SVM, and VADER Lexicon. After evaluation, the model demonstrated high accuracy across datasets: Reddit (97.4%), Life_Corpus (97.14%), CEASE (99.2%), SWMH (91.5%), SDCNL (94.4%), and SDD (93.7%).
+
+### Comparison and Implications
+
+Comparing the proposed systems with existing works, the results indicate superior performance for four datasets: Reddit, Life_Corpus, CEASE, and SWMH, achieving accuracy scores of 97.4%, 97.14%, 99.2%, and 91.5%, respectively. While SDCNL and SDD also showed promising results with accuracy scores of 94.4% and 94%, they did not surpass the accuracy achieved by previous research on these datasets. This suggests that further research is needed to enhance the performance on these specific datasets.
+
+In conclusion, the proposed systems demonstrate robust capabilities in detecting suicidal intent through text analysis, showcasing competitive accuracy scores across various datasets. The findings provide valuable insights and lay the groundwork for future research in this critical domain.
+
+
+### For ***Dataset*** and ***Output Demo*** ***Click*** on this Link:
+
+[Access Project Files]([https://drive.google.com/drive/folders/YourFolderID](https://drive.google.com/drive/folders/1Ligplfr9LwaU0b27CJAJ0ZPv3LMbW-w7?usp=sharing)https://drive.google.com/drive/folders/1Ligplfr9LwaU0b27CJAJ0ZPv3LMbW-w7?usp=sharing)
