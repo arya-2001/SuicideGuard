@@ -10,15 +10,15 @@ Suicide has become a serious social health issue in the modern society. Suicidal
 
 ## System 1: Suicidal Ideation using ML & DL Classifiers
 
-### Architectural Framework
+### Architectural Framework :
 ![ML   DL architecture](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/20c21ace-ebd5-47ed-845e-0b269ccf0047)
 
 The proposed system employs ***four ML classifiers (SVM, NB, RF, LR)*** and ***four DL classifiers (CNN, LSTM, Bi-LSTM, BERT)*** for identifying suicidal ideation. Feature extraction includes **TF-IDF (unigrams & bigrams)** and **BoW (unigrams & bigrams)** for ML, and **one-hot encoding** for DL.
 
-#### ML Part Flowchart
+#### ML Part Flowchart :
 ![Machine Learning flowchart](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/17fe5e37-55a8-4cac-afd3-0a8408bef91f)
 
-#### DL Part Flowchart
+#### DL Part Flowchart :
 ![deep learning flowchart](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/d06ae2db-fc85-48a2-83c4-0ba45a33cba4)
 
 ### Workflow
@@ -49,7 +49,7 @@ The proposed system employs ***four ML classifiers (SVM, NB, RF, LR)*** and ***f
 
 ## System 2: Hybrid Model
 
-### Architecture
+### Architecture :
 ![Novel Hybrid system archicecture](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/0306b6b1-2692-4f7d-bceb-12d51c16911a)
 
 ### Algorithm & Implementation
@@ -108,7 +108,7 @@ The proposed system employs ***four ML classifiers (SVM, NB, RF, LR)*** and ***f
 12. **Calculate Mean Accuracy Score:**
     - Calculate the mean accuracy score from the accuracy_scores.
 
-See code implementation in the `algorithm_system_2.py` file.
+See code implementation in the `Arya_ML_DL_project\Source Codes\Novel Hybrid System.ipynb` file.
 
 ### Workflow
 
@@ -147,7 +147,7 @@ See code implementation in the `algorithm_system_2.py` file.
 ### Result of Proposed System 2:
 ***Table 2: Accuracy of selected datasets using Proposed System 2***
 
-![image](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/453ad83d-b204-4225-b489-23d66bcc2f43)
+![Screenshot 2023-12-31 230837](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/2c897592-1b59-46cb-9a5b-98bc44bcfae3)
 
 ### Comparison Table:
 ***Table 3: Comparison of accuracy between existing research work and proposed work***
