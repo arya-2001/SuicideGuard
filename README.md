@@ -138,4 +138,4 @@ See code implementation in the `algorithm_system_2.py` file.
    - Combine LSTM predictions with sentiment scores.
    - Train SVM classifier on combined features and evaluate accuracy.
 
-
+![image](https://github.com/arya-2001/Arya_ML_DL_project/assets/82049658/dcb3ce24-9e9e-4ad1-b0b2-2156af77eb5c)
