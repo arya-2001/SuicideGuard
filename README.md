@@ -1,4 +1,4 @@
-# SuicideGuard 23.3.0
+# SuicideGuard-23.3.0
 
 ## Developing a Text Classification Model for Identifying Suicidal  Ideation using Natural Language Processing Techniques (Machine Learning and Deep Learning) 
 
